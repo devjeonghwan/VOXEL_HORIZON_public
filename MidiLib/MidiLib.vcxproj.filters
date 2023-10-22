@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{30dc9ad1-ff47-4bde-9eb2-e57cbbf0f537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{4b473e1e-655c-4a90-b144-b7bdcbb1a530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry">
+      <UniqueIdentifier>{a1e8a522-2824-4cfd-ac35-fd62d2e408ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UWP_Midi">
+      <UniqueIdentifier>{c6bd8050-4243-4972-bf93-a7db329b120f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Body">
+      <UniqueIdentifier>{c74fddda-14be-4d28-b95b-5d583d64488c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{f94a4de2-566d-4e89-8296-466d24227ddc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Megayuchi_Common\IMidiLib.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="RefMidi.h">
+      <Filter>UWP_Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiLib.h">
+      <Filter>Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Megayuchi_Common\typedef.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Megayuchi_UTIL\WriteDebugString.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>MainEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="RefMidi.cpp">
+      <Filter>UWP_Midi</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiLib.cpp">
+      <Filter>Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Megayuchi_UTIL\WriteDebugString.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MidiLib.def">
+      <Filter>MainEntry</Filter>
+    </None>
+  </ItemGroup>
+</Project>

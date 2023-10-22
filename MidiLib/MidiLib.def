@@ -1,0 +1,5 @@
+LIBRARY     MidiLib
+DESCRIPTION 'Megayuchi Engine Midi Library
+EXPORTS
+	DllCreateInstance	PRIVATE
+
