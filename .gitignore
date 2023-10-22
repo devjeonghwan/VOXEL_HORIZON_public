@@ -38,6 +38,7 @@
 *.tlog
 *.ipch
 *.db
+DLL/*.*
 MidiLib/.vs/*.*
 MidiLib/debug/*.*
 MidiLib/release/*.*
